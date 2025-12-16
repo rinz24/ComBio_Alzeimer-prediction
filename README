@@ -3,3 +3,17 @@ This project builds a machine-learning system that detects Alzheimer-like patter
 The system uses the OpenNeuro ds004504 dataset and supports AD vs. Healthy classification across eyes-open and eyes-closed conditions. A Python Tkinter GUI allows users to load EEG data, view raw or filtered signals, run Alzheimer probability predictions, see model performance graphs, and compare two patients using violin plots.
 
 To run the project, install the dependencies, place the EEG dataset inside an `EEG_data` folder following the AD/Healthy structure, then launch the app with `python main.py`. The project structure includes modules for
+
+The datasets link : https://openneuro.org/datasets/ds004504/versions/1.0.8
+
+Some of the dependency packages:
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+optuna
+xgboost
+tkinter      
+
